@@ -1,6 +1,5 @@
 package src.Game;
 
-import org.jetbrains.annotations.NotNull;
 import src.Structure.BoardNode;
 import src.Solver.Astar;
 
@@ -58,7 +57,7 @@ public class Game {
     }
 
     //მეთოდი აბრუნებს მიმდინარე დაფის String ვერსიას
-    public static @NotNull String stringBoard(int[][] board) {
+    public static String stringBoard(int[][] board) {
         StringBuilder sb = new StringBuilder();
         for (int[] ints : board)
             for (int anInt : ints)
